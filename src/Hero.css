@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Barlow:wght@300;400&display=swap");
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/021/266/original/Background_%281%29.jpg?1637278212");
+  background-position: center;
+  display: flex; /* allow flexbox alignment */
+  justify-content: flex-end; /* push content to the right */
+  padding: 2rem; /* breathing space from the edge */
+}
+
+.hero-text {
+  color: whitesmoke;
+  text-align: right;
+  letter-spacing: 10px;
+  font-size: 64px;
+  font-family: "Potta One", system-ui;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Responsive Hero */
+@media (max-width: 768px) {
+  .hero-text {
+    width: 55%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text {
+    width: 70%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero-text {
+    width: 55%;
+    top: 0%;
+  }
+}
