@@ -36,7 +36,7 @@ export default function Quiz(props) {
     {
       id: "arrietty",
       name: "Arrietty",
-      scrambled: "YTTEITRA",
+      scrambled: "YTEITRRA",
       hint: "🏠 Can you unscramble this tiny character's name?",
       success:
         "That's right! Arrietty is a tiny 'borrower' who lives under the floorboards! The film won Animation of the year twice in 2011.",
