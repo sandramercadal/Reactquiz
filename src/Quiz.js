@@ -2,7 +2,7 @@ import React from "react";
 import "./Quiz.css";
 
 export default function Quiz(props) {
-  const characters = [
+  let characters = [
     {
       id: "howl",
       name: "Howl",
